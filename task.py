@@ -3,7 +3,9 @@ def loves_me(n):
     result = []
     for i in range(n):
         phrase = phrases[i % 2]
-        if i == n:
-            phrase = phrase.lower()
+        if i == n - 1:
+            phrase = phrase.upper()
         result.append(phrase)
     return "; ".join(result)
+
+print(loves_me(3))
