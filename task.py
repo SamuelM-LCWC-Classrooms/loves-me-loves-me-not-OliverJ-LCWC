@@ -7,5 +7,3 @@ def loves_me(n):
             phrase = phrase.upper()
         result.append(phrase)
     return "; ".join(result)
-
-print(loves_me(3))
