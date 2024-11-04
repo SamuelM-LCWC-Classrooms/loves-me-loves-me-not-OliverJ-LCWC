@@ -6,4 +6,4 @@ def loves_me(n):
         if i == n - 1:
             phrase = phrase.upper()
         result.append(phrase)
-    return "; ".join(result)
+    return ", ".join(result)
